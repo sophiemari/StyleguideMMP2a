@@ -40,7 +40,7 @@ body {
     background-image: url("background.png");
 }
 
-nav {
+#nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -58,12 +58,12 @@ button {
     text-align: center;
     position: relative;
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
 }
 
-button{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+button {
+    border: 1px solid transparent;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
@@ -71,119 +71,176 @@ button:active {
     transition: none;
     -webkit-transition: none;
 }
-  
+
 button::before {
     content: '';
     position: absolute;
     left: 0px;
-    bottom:-1px;
-    z-index:-1;
+    bottom: -1px;
+    z-index: -1;
     width: 0%;
-    height:3px;
+    height: 3px;
     display: block;
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
 }
-  
+
 button:hover::before {
-    width:100%;
+    width: 100%;
 }
-  
+
 button::after {
     content: '';
     position: absolute;
     right: 0px;
-    top:-1px;
-    z-index:-1;
+    top: -1px;
+    z-index: -1;
     width: 0%;
-    height:3px;
+    height: 3px;
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
 }
+
 button:hover::after {
-    width:100%;
+    width: 100%;
 }
 
-/* RESET */
+/* RESET, SONNE & MARS*/
 
-#reset:hover {
+#reset:hover,
+#sonne:hover,
+#mars:hover {
     background-color: rgba(137, 47, 82, 0.7);
     border-left: 3px solid rgba(187, 97, 132, 0.7);
     border-right: 3px solid rgba(187, 97, 132, 0.7);
 }
-#reset:active {
+
+#reset:active,
+#sonne:active,
+#mars:active {
     background-color: rgba(187, 97, 132, 0.7)
 }
-  
-#reset::before {
+
+#reset::before,
+#sonne::before,
+#mars::before {
     background: rgba(187, 97, 132, 0.7);
     box-shadow: inset 0px 0px 0px rgba(187, 97, 132, 0.7);
 }
-  
-#reset::after {
+
+#reset::after,
+#sonne::after,
+#mars::after {
     background: rgba(187, 97, 132, 0.7);
 }
 
-/* GRÖẞENVERGLEICH */
+/* GRÖẞENVERGLEICH, MERKUR & JUPITER*/
 
-#größenvergleich:hover{
+#größenvergleich:hover,
+#merkur:hover,
+#jupiter:hover {
     background-color: rgba(126, 69, 164, 0.7);
     border-left: 3px solid rgba(176, 119, 214, 0.7);
     border-right: 3px solid rgba(176, 119, 214, 0.7);
 }
 
-#größenvergleich:active {
+#größenvergleich:active,
+#merkur:active,
+#jupiter:active {
     background-color: rgba(176, 119, 214, 0.7);
 }
 
-#größenvergleich::before {
+#größenvergleich::before,
+#merkur::before,
+#jupiter::before {
     background: rgba(176, 119, 214, 0.7);
     box-shadow: inset 0px 0px 0px rgba(176, 119, 214, 0.7);
 }
-  
-#größenvergleich::after {
+
+#größenvergleich::after,
+#merkur::after,
+#jupiter::after {
     background: rgba(176, 119, 214, 0.7);
 }
 
-/* GESCHWINDIGKEIT */
-  
-#geschwindigkeit:hover {
+/* GESCHWINDIGKEIT, VENUS & SATURN*/
+
+#geschwindigkeit:hover,
+#venus:hover,
+#saturn:hover {
     background-color: rgba(215, 120, 184, 0.7);
     border-left: 3px solid rgba(255, 170, 234, 0.7);
     border-right: 3px solid rgba(255, 170, 234, 0.7);
 }
 
-#geschwindigkeit:active {
+#geschwindigkeit:active,
+#venus:active,
+#saturn:active {
     background-color: rgba(255, 170, 234, 0.7);
 }
 
-#geschwindigkeit::before {
+#geschwindigkeit::before,
+#venus::before,
+#saturn::before {
     background: rgba(255, 170, 234, 0.7);
     box-shadow: inset 0px 0px 0px rgba(255, 170, 234, 0.7);
 }
-  
-#geschwindigkeit::after {
+
+#geschwindigkeit::after,
+#venus::after,
+#saturn::after {
     background: rgba(255, 170, 234, 0.7);
 }
 
-/* REALISTISCH */
+/* REALISTISCH, ERDE & URANUS */
 
-#realistisch:hover {
+#realistisch:hover,
+#erde:hover,
+#uranus:hover {
     background-color: rgba(85, 79, 189, 0.7);
     border-left: 3px solid rgba(135, 129, 239, 0.7);
     border-right: 3px solid rgba(135, 129, 239, 0.7);
 }
 
-#realistisch:active {
+#realistisch:active,
+#erde:active,
+#uranus:active {
     background-color: rgba(135, 129, 239, 0.7);
 }
 
-#realistisch::before {
+#realistisch::before,
+#erde::before,
+#uranus::before {
     background: rgba(135, 129, 239, 0.7);
     box-shadow: inset 0px 0px 0px rgba(135, 129, 239, 0.7);
 }
-  
-#realistisch::after {
+
+#realistisch::after,
+#erde::after,
+#uranus::after {
     background: rgba(135, 129, 239, 0.7);
 }
 
+/*planeten buttons*/
+
+#planeten {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#planeten button {
+    width: 12.5%;
+    padding: 10px;
+    margin: 2px;
+    background-color: rgba(90, 90, 90, 0.7);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
