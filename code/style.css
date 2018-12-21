@@ -1,7 +1,7 @@
 button {
     border: none;
-    margin: 2px;
-    height: 75px;
+    margin: 0;
+    height: 0;
     padding: 0;
     width: auto;
     overflow: visible;
@@ -47,25 +47,12 @@ nav {
     display: flex;
     flex-direction: column;
     width: 15%;
-    /* border-left: solid 2px white;
-    border-right: solid 2px white; */
 }
-
-/* button {
-    font-size: 22px;
-    margin: 2px;
-    height: 75px;
-    background-color: rgba(90, 90, 90, 0.7);
-    border-radius: 5px;
-    padding: 10px;
-    border: solid 2px white;
-} */
 
 button {
     padding: 10px;
     margin: 2px;
-    /* color: #fff; */
-    /* font-family: sans-serif; */
+    height: 75px;
     background-color: rgba(90, 90, 90, 0.7);
     text-transform: uppercase;
     text-align: center;
@@ -74,278 +61,129 @@ button {
     display:inline-block;
 }
 
-#reset:hover {
-    background-color: rgba(137, 47, 82, 0.7)
+button{
+    border:1px solid transparent; 
+     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
-#geschwindigkeit:hover {
-    background-color: rgba(215, 120, 184, 0.7)
+
+button:active {
+    transition: none;
+    -webkit-transition: none;
 }
-#größenvergleich:hover {
-    background-color: rgba(126, 69, 164, 0.7)
+  
+button::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom:-1px;
+    z-index:-1;
+    width: 0%;
+    height:3px;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
 }
-#realistisch:hover {
-    background-color: rgba(85, 79, 189, 0.7)
+  
+button:hover::before {
+    width:100%;
+}
+  
+button::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top:-1px;
+    z-index:-1;
+    width: 0%;
+    height:3px;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+button:hover::after {
+    width:100%;
 }
 
 /* RESET */
 
-#reset{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+#reset:hover {
+    background-color: rgba(137, 47, 82, 0.7);
+    border-left: 3px solid rgba(187, 97, 132, 0.7);
+    border-right: 3px solid rgba(187, 97, 132, 0.7);
+}
+#reset:active {
+    background-color: rgba(187, 97, 132, 0.7)
 }
   
 #reset::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(187, 97, 132, 0.7);
     box-shadow: inset 0px 0px 0px rgba(187, 97, 132, 0.7);
-    display: block;
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-  
-#reset:hover::before {
-    width:100%;
 }
   
 #reset::after {
-    content: '';
-    position: absolute;
-    right: 0px;
-    top:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(187, 97, 132, 0.7);
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-#reset:hover::after {
-    width:100%;
-}
-#reset:hover{
-    border-left:3px solid rgba(187, 97, 132, 0.7);
-    border-right:3px solid rgba(187, 97, 132, 0.7);
 }
 
 /* GRÖẞENVERGLEICH */
 
-#größenvergleich{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+#größenvergleich:hover{
+    background-color: rgba(126, 69, 164, 0.7);
+    border-left: 3px solid rgba(176, 119, 214, 0.7);
+    border-right: 3px solid rgba(176, 119, 214, 0.7);
 }
-  
+
+#größenvergleich:active {
+    background-color: rgba(176, 119, 214, 0.7);
+}
+
 #größenvergleich::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(176, 119, 214, 0.7);
     box-shadow: inset 0px 0px 0px rgba(176, 119, 214, 0.7);
-    display: block;
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-  
-#größenvergleich:hover::before {
-    width:100%;
 }
   
 #größenvergleich::after {
-    content: '';
-    position: absolute;
-    right: 0px;
-    top:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(176, 119, 214, 0.7);
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-#größenvergleich:hover::after {
-    width:100%;
-}
-#größenvergleich:hover{
-    border-left:3px solid rgba(176, 119, 214, 0.7);
-    border-right:3px solid rgba(176, 119, 214, 0.7);
-}
-
-#größenvergleich{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-}
-  
-#größenvergleich::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
-    background: rgba(176, 119, 214, 0.7);
-    box-shadow: inset 0px 0px 0px rgba(176, 119, 214, 0.7);
-    display: block;
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-  
-#größenvergleich:hover::before {
-    width:100%;
 }
 
 /* GESCHWINDIGKEIT */
-
-#geschwindigkeit{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-}
   
+#geschwindigkeit:hover {
+    background-color: rgba(215, 120, 184, 0.7);
+    border-left: 3px solid rgba(255, 170, 234, 0.7);
+    border-right: 3px solid rgba(255, 170, 234, 0.7);
+}
+
+#geschwindigkeit:active {
+    background-color: rgba(255, 170, 234, 0.7);
+}
+
 #geschwindigkeit::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(255, 170, 234, 0.7);
     box-shadow: inset 0px 0px 0px rgba(255, 170, 234, 0.7);
-    display: block;
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-  
-#geschwindigkeit:hover::before {
-    width:100%;
 }
   
 #geschwindigkeit::after {
-    content: '';
-    position: absolute;
-    right: 0px;
-    top:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(255, 170, 234, 0.7);
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-#geschwindigkeit:hover::after {
-    width:100%;
-}
-#geschwindigkeit:hover{
-    border-left:3px solid rgba(255, 170, 234, 0.7);
-    border-right:3px solid rgba(255, 170, 234, 0.7);
-}
-
-#geschwindigkeit{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-}
-  
-#geschwindigkeit::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
-    background: rgba(255, 170, 234, 0.7);
-    box-shadow: inset 0px 0px 0px rgba(255, 170, 234, 0.7);
-    display: block;
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-  
-#geschwindigkeit:hover::before {
-    width:100%;
 }
 
 /* REALISTISCH */
 
-#realistisch{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+#realistisch:hover {
+    background-color: rgba(85, 79, 189, 0.7);
+    border-left: 3px solid rgba(135, 129, 239, 0.7);
+    border-right: 3px solid rgba(135, 129, 239, 0.7);
 }
-  
+
+#realistisch:active {
+    background-color: rgba(135, 129, 239, 0.7);
+}
+
 #realistisch::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(135, 129, 239, 0.7);
     box-shadow: inset 0px 0px 0px rgba(135, 129, 239, 0.7);
-    display: block;
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-  
-#realistisch:hover::before {
-    width:100%;
 }
   
 #realistisch::after {
-    content: '';
-    position: absolute;
-    right: 0px;
-    top:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
     background: rgba(135, 129, 239, 0.7);
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-#realistisch:hover::after {
-    width:100%;
-}
-#realistisch:hover{
-    border-left:3px solid rgba(135, 129, 239, 0.7);
-    border-right:3px solid rgba(135, 129, 239, 0.7);
 }
 
-#realistisch{
-    border:1px solid transparent; 
-     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-}
-  
-#realistisch::before {
-    content: '';
-    position: absolute;
-    left: 0px;
-    bottom:-1px;
-    z-index:-1;
-    width: 0%;
-    height:3px;
-    background: rgba(135, 129, 239, 0.7);
-    box-shadow: inset 0px 0px 0px rgba(135, 129, 239, 0.7);
-    display: block;
-    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
-}
-  
-#realistisch:hover::before {
-    width:100%;
-}
