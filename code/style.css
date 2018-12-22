@@ -60,9 +60,7 @@ button {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-}
-
-button {
+    border: 3px solid transparent;
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
