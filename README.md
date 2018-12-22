@@ -13,6 +13,7 @@ The default color of the buttons is grey with an opacity of 70% (rgba(90, 90, 90
 Height is 75px, padding 10px and margin 2px.
 
 <img src="https://github.com/sophiemari/StyleguideMMP2a/blob/master/images/defaultbuttons.png" alt="buttons"/>
+
 ```
 button {
     padding: 10px;
