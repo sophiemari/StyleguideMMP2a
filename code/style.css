@@ -246,3 +246,10 @@ button:hover::after {
     display: inline-block;
     cursor: pointer;
 }
+
+/*Contact Form*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
