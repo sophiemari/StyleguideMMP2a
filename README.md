@@ -11,4 +11,4 @@ The choice of color was inspired by the colors of space (galaxy).
 
 The default color of the buttons is grey with an opacity of 70% (rgba(90, 90, 90, 0.7);)
 Height is 75px, padding 10px and margin 2px.
-<img src="https://github.com/sophiemari/StyleguideMMP2a/blob/master/images/defaultbuttons.svg alt="buttons"/>
+<img src="https://github.com/sophiemari/StyleguideMMP2a/blob/master/images/defaultbuttons.svg" alt="buttons"/>
