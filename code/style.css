@@ -52,7 +52,7 @@ body {
 button {
     padding: 10px;
     margin: 2px;
-    height: 75px;
+    /*height: 75px;*/
     background-color: rgba(90, 90, 90, 0.7);
     text-transform: uppercase;
     text-align: center;
