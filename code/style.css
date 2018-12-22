@@ -52,13 +52,14 @@ body {
 button {
     padding: 10px;
     margin: 2px;
-    /*height: 75px;*/
+    height: 75px;
     background-color: rgba(90, 90, 90, 0.7);
     text-transform: uppercase;
     text-align: center;
     position: relative;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
 button {
@@ -243,4 +244,5 @@ button:hover::after {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
