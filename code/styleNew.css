@@ -32,7 +32,7 @@ button::-moz-focus-inner {
 
 * {
   color: white;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: "Montserrat";
 }
 
@@ -143,4 +143,20 @@ button:hover::after {
 #venus:active,
 #saturn:active {
     background-color: rgba(255, 170, 234, 0.7);
+}
+
+/* list*/
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgba(90, 90, 90, 0.7);
+  border: 2px solid rgba(180, 180, 180, 1);
+}
+
+ul {
+  margin: 10px;
+  padding-left: 25px;
+  font-size: 16px;
 }

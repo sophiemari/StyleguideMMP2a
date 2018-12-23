@@ -59,14 +59,7 @@ button {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-<<<<<<< HEAD
     border: 3px solid transparent;
-=======
-    text-transform: uppercase;
-}
-
-button {
->>>>>>> fd6b380534b326c1ae76bd273ae3c6d18000d805
     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
