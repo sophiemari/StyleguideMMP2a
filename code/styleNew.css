@@ -32,7 +32,7 @@ button::-moz-focus-inner {
 
 * {
   color: white;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-family: "Montserrat";
 }
 
@@ -65,6 +65,7 @@ button {
   position: relative;
   vertical-align: middle;
 }
+
 button::before,
 button::after {
   box-sizing: inherit;
@@ -77,6 +78,7 @@ button::after {
 button {
   transition: color 0.25s;
 }
+
 button::before,
 button::after {
   border: 3px solid transparent;
@@ -117,30 +119,136 @@ button:hover::after {
 }
 
 #planeten {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    margin-right: 5%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #planeten button {
-    width: 12.5%;
-    padding: 10px;
-    margin: 2px;
-    background-color: rgba(90, 90, 90, 0.7);
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+  width: 12.5%;
+  padding: 10px;
+  margin: 2px;
+  background-color: rgba(90, 90, 90, 0.7);
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
 }
 
 #geschwindigkeit:active,
 #venus:active,
 #saturn:active {
-    background-color: rgba(255, 170, 234, 0.7);
+  background-color: rgba(255, 170, 234, 0.7);
+}
+
+/* list */
+
+.info-facts {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgba(90, 90, 90, 0.7);
+  border: 2px solid rgba(180, 180, 180, 1);
+}
+
+ul {
+  margin: 10px;
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+/* headings */
+#heading-wrapper {
+  margin: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* info */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgba(90, 90, 90, 0.7);
+  border: 2px solid rgba(180, 180, 180, 1);
+  padding: 20px;
+}
+
+.info h2 {
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+/* links */
+#link-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 20px;
+  align-content: space-around;
+}
+
+#link1 {
+  color: #892F52;
+}
+
+#link1:hover {
+  color: rgba(187, 97, 132, 0.7);
+}
+
+#link2 {
+  color: #D778B8;
+}
+
+#link2:hover {
+  color: rgba(255, 170, 234, 0.7);
+}
+
+#link3 {
+  color: #7E45A4;
+}
+
+#link3:hover {
+  color: rgba(176, 119, 214, 0.7);
+}
+
+#link4 {
+  color: #554FBD;
+}
+
+#link4:hover {
+  color: rgba(135, 129, 239, 0.7);
+}
+
+#link1:visited,
+#link2:visited,
+#link3:visited,
+#link4:visited {
+  color: #909090;
 }
