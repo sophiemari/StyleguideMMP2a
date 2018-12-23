@@ -191,8 +191,8 @@ h4 {
 
 /* info */
 
-.info{
-  display:flex;
+.info {
+  display: flex;
   flex-direction: column;
   width: 400px;
   background-color: rgba(90, 90, 90, 0.7);
@@ -200,7 +200,55 @@ h4 {
   padding: 20px;
 }
 
-.info h2{
- text-align: center;
- border-bottom: 2px solid white;
+.info h2 {
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+/* links */
+#link-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 20px;
+  align-content: space-around;
+}
+
+#link1 {
+  color: #892F52;
+}
+
+#link1:hover {
+  color: rgba(187, 97, 132, 0.7);
+}
+
+#link2 {
+  color: #D778B8;
+}
+
+#link2:hover {
+  color: rgba(255, 170, 234, 0.7);
+}
+
+#link3 {
+  color: #7E45A4;
+}
+
+#link3:hover {
+  color: rgba(176, 119, 214, 0.7);
+}
+
+#link4 {
+  color: #554FBD;
+}
+
+#link4:hover {
+  color: rgba(135, 129, 239, 0.7);
+}
+
+#link1:visited,
+#link2:visited,
+#link3:visited,
+#link4:visited {
+  color: #909090;
 }
