@@ -149,7 +149,7 @@ button:hover::after {
 
 /* list */
 
-.info {
+.info-facts {
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -187,4 +187,20 @@ h3 {
 h4 {
   font-size: 20px;
   text-transform: uppercase;
+}
+
+/* info */
+
+.info{
+  display:flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgba(90, 90, 90, 0.7);
+  border: 2px solid rgba(180, 180, 180, 1);
+  padding: 20px;
+}
+
+.info h2{
+ text-align: center;
+ border-bottom: 2px solid white;
 }
