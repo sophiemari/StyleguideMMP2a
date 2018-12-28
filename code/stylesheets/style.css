@@ -41,7 +41,7 @@ body {
 /*transparent colors for hovereffects,...*/
 /*background color for most elements*/
 /*form validation colors*/
-div {
+#buttonDiv {
   display: flex;
   flex-direction: column;
   position: absolute;
