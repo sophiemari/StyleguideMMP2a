@@ -1,25 +1,5 @@
 @import "base";
 
-#left {
-  margin: 0;
-  width: 0;
-  height: 0;
-  margin: 2px;
-  border: 30px solid $greyBackground;
-  border-top-color: transparent;
-  border-left-color: transparent;
-}
-
-#right {
-  margin: 0;
-  width: 0;
-  height: 0;
-  margin: 2px;
-  border: 30px solid $greyBackground;
-  border-top-color: transparent;
-  border-right-color: transparent;
-}
-
 button {
   height: 60px;
   width: 12.5%;
@@ -101,4 +81,24 @@ button:active {
   position: absolute;
   bottom: 0;
   left: 0;
+
+  #right {
+    margin: 0;
+    width: 0;
+    height: 0;
+    margin: 2px;
+    border: 30px solid $greyBackground;
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+
+  #left {
+    margin: 0;
+    width: 0;
+    height: 0;
+    margin: 2px;
+    border: 30px solid $greyBackground;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
 }
