@@ -306,7 +306,10 @@ body {
   margin: 20px; }
 
 #formWrapper {
-  align-self: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   margin-top: 50px;
   width: 400px; }
 
@@ -373,7 +376,11 @@ label {
   border: 1px solid #F44336; }
 
 #headingWrapper {
-  margin: 30px; }
+  margin: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
 
 h1 {
   font-weight: bold;
@@ -499,7 +506,11 @@ body {
   width: 400px;
   background-color: rgba(90, 90, 90, 0.7);
   border: 2px solid #b4b4b4;
-  padding: 0 20px; }
+  padding: 0 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
   .info h2 {
     text-align: center;
     padding-bottom: 20px;
@@ -519,7 +530,11 @@ body {
   flex-direction: column;
   width: 300px;
   background-color: rgba(90, 90, 90, 0.7);
-  border: 2px solid #b4b4b4; }
+  border: 2px solid #b4b4b4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
 
 ul {
   margin: 10px;
@@ -540,7 +555,11 @@ body {
   width: 600px;
   padding: 20px;
   background-color: rgba(90, 90, 90, 0.7);
-  border: 2px solid #b4b4b4; }
+  border: 2px solid #b4b4b4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
 
 a {
   outline: none;
@@ -614,7 +633,11 @@ body {
   background-color: rgba(90, 90, 90, 0.7);
   width: 400px;
   padding: 0 20px;
-  border: 2px solid #b4b4b4; }
+  border: 2px solid #b4b4b4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
   .info h2 {
     text-align: center;
     padding-bottom: 20px;

@@ -5,6 +5,10 @@
     background-color: $greyBackground;
     border: 2px solid $greyBackgroundLight;
     padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 
     h2 {
         text-align: center;

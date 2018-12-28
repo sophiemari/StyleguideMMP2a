@@ -6,6 +6,10 @@
   width: 300px;
   background-color: $greyBackground;
   border: 2px solid $greyBackgroundLight;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 ul {
