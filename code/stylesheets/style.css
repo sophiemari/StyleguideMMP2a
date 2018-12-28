@@ -334,13 +334,13 @@ label {
 #lname:valid,
 #fname:valid,
 #subject:valid {
-  background: rgba(90, 90, 90, 0.7) url(https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/ok.png);
+  background: rgba(90, 90, 90, 0.7) url(../../../images/form-ok.PNG);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 360px 20px; }
 
 #subject {
-  background: rgba(90, 90, 90, 0.7) url("ok.png") no-repeat;
+  background: rgba(90, 90, 90, 0.7) url(../../../images/form-ok.PNG) no-repeat;
   background-position: right top;
   border: 2px solid #b4b4b4;
   padding: 20px;
