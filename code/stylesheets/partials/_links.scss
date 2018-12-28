@@ -1,10 +1,12 @@
+@import "base";
+
 #linkWrapper {
     display: flex;
     flex-direction: column;
     width: 600px;
     padding: 20px;
-    background-color: rgba(90, 90, 90, 0.5);
-    border: 2px solid rgba(180, 180, 180, 1);
+    background-color: $greyBackground;
+    border: 2px solid $greyBackgroundLight;
 }
 
 
@@ -24,7 +26,7 @@ a:hover {
 }
 
 #link1 {
-    color: rgba(187, 97, 132, 1);
+    color: $magenta;
 }
 
 #link1:visited {
@@ -36,11 +38,11 @@ a:hover {
 }
 
 #link1:hover {
-    border-color: rgba(187, 97, 132, 1);
+    border: 1px solid $magentaTransparent;
 }
 
 #link2 {
-    color: #D778B8;
+    color: $pink;
 }
 
 #link2:visited {
@@ -52,11 +54,11 @@ a:hover {
 }
 
 #link2:hover {
-    border: 1px solid rgba(255, 170, 234, 0.7);
+    border: 1px solid $pinkTransparent;
 }
 
 #link3 {
-    color: #7E45A4;
+    color: $purple;
 }
 
 #link3:visited {
@@ -68,11 +70,11 @@ a:hover {
 }
 
 #link3:hover {
-    border: 1px solid rgba(176, 119, 214, 0.7);
+    border: 1px solid $purpleTransparent;
 }
 
 #link4 {
-    color: #554FBD;
+    color: $blue;
 }
 
 #link4:visited {
@@ -84,5 +86,5 @@ a:hover {
 }
 
 #link4:hover {
-    border: 1px solid rgba(135, 129, 239, 0.7);
+    border: 1px solid $blueTransparent;
 }

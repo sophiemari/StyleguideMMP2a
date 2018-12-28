@@ -1,18 +1,19 @@
-.info {
-    background-color: rgba(90, 90, 90, 0.7);
-    width: 400px;
-    padding: 0 20px;
-    border: 2px solid rgba(180, 180, 180, 1);
+@import "base";
 
-    h2 {
-        text-align: center;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-        border-bottom: 2px solid rgba(180, 180, 180, 1);
-      }
+.info {
+  background-color: $greyBackground;
+  width: 400px;
+  padding: 0 20px;
+  border: 2px solid $greyBackgroundLight;
+
+  h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid $greyBackgroundLight;
   }
-  
-  img {
-    width: inherit;
-  }
-  
+}
+
+img {
+  width: inherit;
+}

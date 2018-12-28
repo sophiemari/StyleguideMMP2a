@@ -1,13 +1,15 @@
+@import "base";
+
 .info {
     width: 400px;
-    background-color: rgba(90, 90, 90, 0.7);
-    border: 2px solid rgba(180, 180, 180, 1);
+    background-color: $greyBackground;
+    border: 2px solid $greyBackgroundLight;
     padding: 0 20px;
-}
 
-.info h2 {
-    text-align: center;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    border-bottom: 2px solid rgba(180, 180, 180, 1);
+    h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        border-bottom: 2px solid $greyBackgroundLight;
+    }
 }

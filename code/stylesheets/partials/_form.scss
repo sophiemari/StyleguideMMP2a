@@ -1,80 +1,82 @@
- #formHeading {
-     text-align: center;
-     margin: 20px;
- }
+@import "base";
 
- #formWrapper {
-     align-self: center;
-     margin-top: 50px;
-     width: 400px;
- }
+#formHeading {
+    text-align: center;
+    margin: 20px;
+}
 
- form {
-     display: flex;
-     flex-direction: column;
- }
+#formWrapper {
+    align-self: center;
+    margin-top: 50px;
+    width: 400px;
+}
 
- label {
-     margin-top: 20px;
-     font-size: 21px;
-     margin-bottom: 15px;
-     align-self: left;
-     font-weight: bold;
-     text-transform: uppercase;
- }
+form {
+    display: flex;
+    flex-direction: column;
+}
 
- #lname,
- #fname {
-     background: rgba(90, 90, 90, 0.7);
-     background-position: right;
-     border: 2px solid rgba(180, 180, 180, 1);
-     padding: 20px;
-     font-size: 16px;
-     border: 1px solid #43A047;
- }
+label {
+    margin-top: 20px;
+    font-size: 21px;
+    margin-bottom: 15px;
+    align-self: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
- #lname:valid,
- #fname:valid,
- #subject:valid {
-     background: rgba(90, 90, 90, 0.7) url(https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/ok.png);
-     background-size: 20px;
-     background-repeat: no-repeat;
-     background-position: 360px 20px;
- }
+#lname,
+#fname {
+    background: $greyBackground;
+    background-position: right;
+    border: 2px solid $greyBackground;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid $green;
+}
 
- #subject {
-     background: rgba(90, 90, 90, 0.7) url('ok.png') no-repeat;
-     background-position: right top;
-     border: 2px solid rgba(180, 180, 180, 1);
-     padding: 20px;
-     font-size: 16px;
-     border: 1px solid #43A047;
- }
+#lname:valid,
+#fname:valid,
+#subject:valid {
+    background: $greyBackground url(https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/ok.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 360px 20px;
+}
 
- #submit {
-     padding: 15px;
-     margin-top: 15px;
-     background-color: rgba(85, 79, 189, 0.7);
-     border: 3px solid rgba(135, 129, 239, 0.7);
-     text-transform: uppercase;
-     text-align: center;
-     text-decoration: none;
-     cursor: pointer;
-     text-transform: uppercase;
-     font-weight: bold;
-     font-size: 21px;
- }
+#subject {
+    background: $greyBackground url('ok.png') no-repeat;
+    background-position: right top;
+    border: 2px solid $greyBackgroundLight;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid $green;
+}
 
- #submit:hover {
-     background-color: rgba(135, 129, 239, 0.7);
- }
+#submit {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: $blueTransparent;
+    border: 3px solid $blueTransparentLight;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 21px;
+}
 
- #lname:invalid,
- #fname:invalid,
- #subject:invalid {
-     background: rgba(90, 90, 90, 0.7) url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/notok.png');
-     background-size: 20px;
-     background-repeat: no-repeat;
-     background-position: 360px 20px;
-     border: 1px solid #F44336;
- }
+#submit:hover {
+    background-color: $blueTransparentLight;
+}
+
+#lname:invalid,
+#fname:invalid,
+#subject:invalid {
+    background: $greyBackground url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/notok.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 360px 20px;
+    border: 1px solid $red;
+}
