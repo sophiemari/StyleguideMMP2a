@@ -17,14 +17,6 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
-
-/*main colors*/
-/*transparent colors for hovereffects,...*/
-/*background color for most elements*/
-/*form validation colors*/
 * {
   color: white;
   font-family: "Montserrat";
@@ -32,10 +24,6 @@ body {
 
 p {
   line-height: 1.7; }
-
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
 
 /*main colors*/
 /*transparent colors for hovereffects,...*/
@@ -293,10 +281,6 @@ body {
 .button4:active {
   background-color: rgba(135, 129, 239, 0.7); }
 
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
-
 /*main colors*/
 /*transparent colors for hovereffects,...*/
 /*background color for most elements*/
@@ -399,10 +383,6 @@ h4 {
   font-size: 20px;
   text-transform: uppercase; }
 
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
-
 /*main colors*/
 /*transparent colors for hovereffects,...*/
 /*background color for most elements*/
@@ -494,10 +474,6 @@ button:active {
     border-top-color: transparent;
     border-left-color: transparent; }
 
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
-
 /*main colors*/
 /*transparent colors for hovereffects,...*/
 /*background color for most elements*/
@@ -516,10 +492,6 @@ body {
     padding-bottom: 20px;
     text-transform: uppercase;
     border-bottom: 2px solid #b4b4b4; }
-
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
 
 /*main colors*/
 /*transparent colors for hovereffects,...*/
@@ -540,10 +512,6 @@ ul {
   margin: 10px;
   padding-left: 25px;
   font-size: 16px; }
-
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
 
 /*main colors*/
 /*transparent colors for hovereffects,...*/
@@ -621,10 +589,6 @@ a:hover {
 #link4:hover {
   border: 1px solid rgba(85, 79, 189, 0.7); }
 
-body {
-  background-color: black;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
-
 /*main colors*/
 /*transparent colors for hovereffects,...*/
 /*background color for most elements*/
@@ -646,5 +610,9 @@ body {
 
 img {
   width: inherit; }
+
+body {
+  background-color: black;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/moving-through-stars-in-space_-1zccenlb__F0000.png"); }
 
 /*# sourceMappingURL=style.css.map */
