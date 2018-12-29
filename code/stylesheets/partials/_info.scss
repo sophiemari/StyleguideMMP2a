@@ -1,5 +1,4 @@
 @import "base";
-
 .info {
     width: 400px;
     background-color: $greyBackground;
@@ -9,7 +8,6 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-
     h2 {
         text-align: center;
         padding-bottom: 20px;

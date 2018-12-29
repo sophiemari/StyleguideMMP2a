@@ -1,19 +1,18 @@
 @import "base";
-
 .infoFacts {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  background-color: $greyBackground;
-  border: 2px solid $greyBackgroundLight;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: $greyBackground;
+    border: 2px solid $greyBackgroundLight;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 ul {
-  margin: 10px;
-  padding-left: 25px;
-  font-size: 16px;
+    margin: 10px;
+    padding-left: 25px;
+    font-size: 16px;
 }

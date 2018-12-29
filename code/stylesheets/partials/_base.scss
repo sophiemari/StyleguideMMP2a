@@ -1,28 +1,24 @@
-  
-    /*main colors*/
+  /*main colors*/
 
-    $magenta: #892F52;
-    $pink: #D778B8;
-    $purple: #7E45A4;
-    $blue: #554FBD;
+  $magenta: #892F52;
+  $pink: #D778B8;
+  $purple: #7E45A4;
+  $blue: #554FBD;
+  /*transparent colors for hovereffects,...*/
 
-    /*transparent colors for hovereffects,...*/
-    $magentaTransparent: rgba(137, 47, 82, 0.7);
-    $magentaTransparentLight: rgba(187, 97, 132, 0.7);
+  $magentaTransparent: rgba(137, 47, 82, 0.7);
+  $magentaTransparentLight: rgba(187, 97, 132, 0.7);
+  $purpleTransparent: rgba(126, 69, 164, 0.7);
+  $purpleTransparentLight: rgba(176, 119, 214, 0.7);
+  $pinkTransparent: rgba(215, 120, 184, 0.7);
+  $pinkTransparentLight: rgba(255, 170, 234, 0.7);
+  $blueTransparent: rgba(85, 79, 189, 0.7);
+  $blueTransparentLight: rgba(135, 129, 239, 0.7);
+  /*background color for most elements*/
 
-    $purpleTransparent: rgba(126, 69, 164, 0.7);
-    $purpleTransparentLight: rgba(176, 119, 214, 0.7);
+  $greyBackground: rgba(90, 90, 90, 0.7);
+  $greyBackgroundLight: rgba(180, 180, 180, 1);
+  /*form validation colors*/
 
-    $pinkTransparent: rgba(215, 120, 184, 0.7);
-    $pinkTransparentLight: rgba(255, 170, 234, 0.7);
-
-    $blueTransparent: rgba(85, 79, 189, 0.7);
-    $blueTransparentLight: rgba(135, 129, 239, 0.7);
-
-    /*background color for most elements*/
-    $greyBackground: rgba(90, 90, 90, 0.7);
-    $greyBackgroundLight: rgba(180, 180, 180, 1);
-
-    /*form validation colors*/
-    $green: #43A047;
-    $red: #F44336;
+  $green: #43A047;
+  $red: #F44336;

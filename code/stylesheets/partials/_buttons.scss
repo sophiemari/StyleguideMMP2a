@@ -1,302 +1,301 @@
 @import "base";
-
 #buttonDiv {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 /* Button 1 */
 
 .button1 {
-  position: relative;
-  margin: 2px;
-  font-size: 21;
-  background: none;
-  border: 0;
-  box-sizing: border-box;
-  padding: 10px;
-  height: 75px;
-  width: 300px;
-  background-color: $greyBackground;
-  font-size: inherit;
-  vertical-align: middle;
+    position: relative;
+    margin: 2px;
+    font-size: 21;
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 75px;
+    width: 300px;
+    background-color: $greyBackground;
+    font-size: inherit;
+    vertical-align: middle;
 }
 
 .button1::before,
 .button1::after {
-  box-sizing: inherit;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .button1 {
-  transition: color 0.25s;
+    transition: color 0.25s;
 }
 
 .button1::before,
 .button1::after {
-  border: 3px solid transparent;
-  width: 0;
-  height: 0;
+    border: 3px solid transparent;
+    width: 0;
+    height: 0;
 }
 
 .button1::before {
-  top: 0;
-  right: 0;
+    top: 0;
+    right: 0;
 }
 
 .button1::after {
-  bottom: 0;
-  left: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .button1:hover {
-  background-color: $magentaTransparent;
+    background-color: $magentaTransparent;
 }
 
 .button1:hover::before,
 .button1:hover::after {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .button1:hover::before {
-  border-top-color: $magentaTransparentLight;
-  border-right-color: $magentaTransparentLight;
-  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-top-color: $magentaTransparentLight;
+    border-right-color: $magentaTransparentLight;
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button1:hover::after {
-  border-bottom-color: $magentaTransparentLight;
-  border-left-color: $magentaTransparentLight;
-  transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-bottom-color: $magentaTransparentLight;
+    border-left-color: $magentaTransparentLight;
+    transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button1:active {
-  background-color: $magentaTransparentLight;
+    background-color: $magentaTransparentLight;
 }
 
 /* Button 2 */
 
 .button2 {
-  position: relative;
-  margin: 2px;
-  font-size: 21;
-  background: none;
-  border: 0;
-  box-sizing: border-box;
-  padding: 10px;
-  height: 75px;
-  width: 300px;
-  background-color: $greyBackground;
-  font-size: inherit;
-  vertical-align: middle;
+    position: relative;
+    margin: 2px;
+    font-size: 21;
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 75px;
+    width: 300px;
+    background-color: $greyBackground;
+    font-size: inherit;
+    vertical-align: middle;
 }
 
 .button2::before,
 .button2::after {
-  box-sizing: inherit;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .button2 {
-  transition: color 0.25s;
+    transition: color 0.25s;
 }
 
 .button2::before,
 .button2::after {
-  border: 3px solid transparent;
-  width: 0;
-  height: 0;
+    border: 3px solid transparent;
+    width: 0;
+    height: 0;
 }
 
 .button2::before {
-  top: 0;
-  right: 0;
+    top: 0;
+    right: 0;
 }
 
 .button2::after {
-  bottom: 0;
-  left: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .button2:hover {
-  background-color: $purpleTransparent;
+    background-color: $purpleTransparent;
 }
 
 .button2:hover::before,
 .button2:hover::after {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .button2:hover::before {
-  border-top-color: $purpleTransparentLight;
-  border-right-color: $purpleTransparentLight;
-  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-top-color: $purpleTransparentLight;
+    border-right-color: $purpleTransparentLight;
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button2:hover::after {
-  border-bottom-color: $purpleTransparentLight;
-  border-left-color: $purpleTransparentLight;
-  transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-bottom-color: $purpleTransparentLight;
+    border-left-color: $purpleTransparentLight;
+    transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button2:active {
-  background-color: $purpleTransparentLight;
+    background-color: $purpleTransparentLight;
 }
 
 /* Button 3 */
 
 .button3 {
-  position: relative;
-  margin: 2px;
-  font-size: 21;
-  background: none;
-  border: 0;
-  box-sizing: border-box;
-  padding: 10px;
-  height: 75px;
-  width: 300px;
-  background-color: $greyBackground;
-  font-size: inherit;
-  vertical-align: middle;
+    position: relative;
+    margin: 2px;
+    font-size: 21;
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 75px;
+    width: 300px;
+    background-color: $greyBackground;
+    font-size: inherit;
+    vertical-align: middle;
 }
 
 .button3::before,
 .button3::after {
-  box-sizing: inherit;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .button3 {
-  transition: color 0.25s;
+    transition: color 0.25s;
 }
 
 .button3::before,
 .button3::after {
-  border: 3px solid transparent;
-  width: 0;
-  height: 0;
+    border: 3px solid transparent;
+    width: 0;
+    height: 0;
 }
 
 .button3::before {
-  top: 0;
-  right: 0;
+    top: 0;
+    right: 0;
 }
 
 .button3::after {
-  bottom: 0;
-  left: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .button3:hover {
-  background-color: $pinkTransparent;
+    background-color: $pinkTransparent;
 }
 
 .button3:hover::before,
 .button3:hover::after {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .button3:hover::before {
-  border-top-color: $pinkTransparentLight;
-  border-right-color: $pinkTransparentLight;
-  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-top-color: $pinkTransparentLight;
+    border-right-color: $pinkTransparentLight;
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button3:hover::after {
-  border-bottom-color: $pinkTransparentLight;
-  border-left-color: $pinkTransparentLight;
-  transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-bottom-color: $pinkTransparentLight;
+    border-left-color: $pinkTransparentLight;
+    transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button3:active {
-  background-color: $pinkTransparentLight;
+    background-color: $pinkTransparentLight;
 }
 
 /* Button 4 */
 
 .button4 {
-  position: relative;
-  margin: 2px;
-  font-size: 21;
-  background: none;
-  border: 0;
-  box-sizing: border-box;
-  padding: 10px;
-  height: 75px;
-  width: 300px;
-  background-color: $greyBackground;
-  font-size: inherit;
-  vertical-align: middle;
+    position: relative;
+    margin: 2px;
+    font-size: 21;
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 75px;
+    width: 300px;
+    background-color: $greyBackground;
+    font-size: inherit;
+    vertical-align: middle;
 }
 
 .button4::before,
 .button4::after {
-  box-sizing: inherit;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .button4 {
-  transition: color 0.25s;
+    transition: color 0.25s;
 }
 
 .button4::before,
 .button4::after {
-  border: 3px solid transparent;
-  width: 0;
-  height: 0;
+    border: 3px solid transparent;
+    width: 0;
+    height: 0;
 }
 
 .button4::before {
-  top: 0;
-  right: 0;
+    top: 0;
+    right: 0;
 }
 
 .button4::after {
-  bottom: 0;
-  left: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .button4:hover {
-  background-color: $blueTransparent;
+    background-color: $blueTransparent;
 }
 
 .button4:hover::before,
 .button4:hover::after {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .button4:hover::before {
-  border-top-color: $blueTransparentLight;
-  border-right-color: $blueTransparentLight;
-  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-top-color: $blueTransparentLight;
+    border-right-color: $blueTransparentLight;
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button4:hover::after {
-  border-bottom-color: $blueTransparentLight;
-  border-left-color: $blueTransparentLight;
-  transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
+    border-bottom-color: $blueTransparentLight;
+    border-left-color: $blueTransparentLight;
+    transition: border-color 0s 0.4s cubic-bezier(.5, .24, 0, 1), all 0.4s cubic-bezier(.5, .24, 0, 1);
 }
 
 .button4:active {
-  background-color: $blueTransparentLight;
+    background-color: $blueTransparentLight;
 }
