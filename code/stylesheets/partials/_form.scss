@@ -40,14 +40,14 @@ label {
 #lname:valid,
 #fname:valid,
 #subject:valid {
-    background: $greyBackground url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/ok.png');
+    background: $greyBackground url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/images/ok.png');
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 360px 20px;
 }
 
 #subject {
-    background: $greyBackground url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/ok.png') no-repeat;
+    background: $greyBackground url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/images/ok.png') no-repeat;
     background-position: right top;
     border: 2px solid $greyBackgroundLight;
     padding: 20px;
@@ -76,7 +76,7 @@ label {
 #lname:invalid,
 #fname:invalid,
 #subject:invalid {
-    background: $greyBackground url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/code/notok.png');
+    background: $greyBackground url('https://raw.githubusercontent.com/sophiemari/StyleguideMMP2a/master/images/notok.png');
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 360px 20px;
